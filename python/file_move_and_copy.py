@@ -1,10 +1,5 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""
-Created on Fri Dec 20 14:14:02 2019
-
-@author: uisee
-"""
 
 import os,shutil
 
@@ -31,7 +26,7 @@ def mycopyfile(srcfile,dstfile):
 #srcfile='/Users/xxx/git/project1/test.sh'
 #dstfile='/Users/xxx/tmp/tmp/1/test.sh'
 #mymovefile(srcfile,dstfile)
-        
+
 srcfile = '/home/uisee/tmp/Prediction/replay/Trajcase1/prepare.sh'
 dstpath = '/home/uisee/tmp/Prediction/replay/Trajcase'
 
@@ -39,8 +34,3 @@ for i in range(1,26):
     dstfile = dstpath + str(i+1) + '/prepare.sh'
 #    print(dstfile)
     mycopyfile(srcfile, dstfile)
-
-
-
-
-
